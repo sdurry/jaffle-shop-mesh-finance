@@ -1,0 +1,12 @@
+saved_queries:
+  - name: weekly_revenue
+    description: Weekly revenue
+    query_params:
+      metrics:
+        - revenue
+      group_by:
+        - TimeDimension('metric_time', 'week')
+    exports:
+      - name: weekly_revenue
+        config:
+          export_as: table

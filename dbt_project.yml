@@ -1,5 +1,7 @@
 name: jaffle_shop_mesh_finance
 config-version: 2
+dbt-cloud:
+  project-id: 3635
 model-paths:
   - models
 macro-paths:
