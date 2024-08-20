@@ -1,5 +1,4 @@
 metrics:
-  # Simple metrics
   - name: revenue
     config:
       group: finance
@@ -17,6 +16,3 @@ metrics:
     type_params:
       measure: order_cost
   
-  # Ratio Metrics
-  # Derived Metrics
-  # Cumulative Metrics
