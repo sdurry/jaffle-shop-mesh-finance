@@ -4,8 +4,10 @@ saved_queries:
     query_params:
       metrics:
         - revenue
+        - order_gross_profit
       group_by:
         - TimeDimension('metric_time', 'week')
+        - Dimension('order_id__is_food_order')
     exports:
       - name: weekly_revenue
         config:
